@@ -16,12 +16,13 @@
     font-family: Lato;
     font-weight: 300;
     position: relative;
-    height: 100vh;
+    height: 120vh;
     color: #5f5f5d;
   }
   
   .wrapper {
     width: 1000px;
+    margin-top: 1rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -29,6 +30,24 @@
     background-color: #fff;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
     overflow: hidden;
+  }
+
+  .targetscore {
+    margin-top: 1px;
+    position: absolute;
+    width: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Lato;
+    font-size: 90px;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .input {
+    margin-left:55%;
+    height: 1rem;
   }
   
   .player-0-panel,
@@ -119,7 +138,7 @@
   }
   
   .btn-new {
-    top: 45px;
+    top: 125px;
   }
   .btn-roll {
     top: 403px;
