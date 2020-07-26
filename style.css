@@ -18,6 +18,9 @@
     position: relative;
     height: 120vh;
     color: #5f5f5d;
+    background-image: url(assets/photo11.jpg);
+    background-size: cover;
+    background-attachment: fixed;
   }
   
   .wrapper {
