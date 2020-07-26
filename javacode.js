@@ -1,5 +1,9 @@
 let scores, roundscore, gamestatus, activeplayer;
 init();
+function getinputvalue(){
+    var inputval = document.getElementById("target").value;
+    document.querySelector(".targetscore").innerHTML = inputval;
+}
 
 // roll-button
 document.querySelector(".btn-roll").addEventListener("click",function(){
@@ -27,7 +31,7 @@ document.querySelector(".btn-hold").addEventListener("click",function(){
 
         document.querySelector("#score-" + activeplayer).innerHTML = scores[activeplayer];
 
-        if(scores[activeplayer]>=100){
+        if(scores[activeplayer]>=document.getElementById("target").value){
             document.querySelector("#name-" + activeplayer).textContent = "!Winner";
             document.querySelector(".dice").style.display = "none";
 
