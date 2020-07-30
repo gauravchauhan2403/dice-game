@@ -4,11 +4,12 @@ body{
   background-attachment: fixed;
 }
 
-.box {
+.box,.box-1 {
     margin-top: 1rem;
-    padding:15px;
     width: 90%;
-    height:auto;
+    text-align: center;
+    padding:1rem;
+    font-size: large;
     background-color: white;
     border: solid black ;
     border-radius: 1rem;
@@ -18,20 +19,9 @@ body{
 .box-1 {
     margin-top: 2rem;
     background-color: rgba(235, 15, 125, 0.9);
-    margin-left: 30%;
-    padding:15px;
-    font-size: large;
-    padding-left: 70px;
     width: 30%;
-    height: auto;
-    border: solid black;
-    border-radius: 1rem;
     box-shadow: 0px 10px 10px rgba(184, 15, 235, 0.849);
-
 }
-
-
-
 
 .slide-in-left {
 	-webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
